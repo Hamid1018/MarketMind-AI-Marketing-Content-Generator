@@ -1,0 +1,72 @@
+
+# =========================
+# Python / FastAPI Backend
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python packages
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# SQLite database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads and generated files
+uploads/
+generated_images/
+media/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# React / Vite Frontend
+# =========================
+
+node_modules/
+dist/
+.vite/
+
+# Frontend environment files
+.env
+.env.*
+!.env.example
+
+# =========================
+# Editors and operating system
+# =========================
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.bak
+*.swp
